@@ -5,6 +5,18 @@ This is an opinionated Nvim configuration based on what i use in my everyday wor
 It's not meant to work for everyone.  
 Each plugin is grouped according to its purpose, keeping the configuration modular and making the entire setup easier to understand, customize, and maintain.  
 
+## 📋 Prerequisites
+
+| Requirement | Version |
+|---|---|
+| Neovim | `>= 0.12.0` |
+| Git | `>= 2.19.0` |
+| ripgrep | latest |
+| fd | latest |
+| Nerd Font | recommended |
+| C compiler | gcc / clang |
+
+
 Following is the plugin list organized by categories
 
 ```text
