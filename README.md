@@ -1,4 +1,4 @@
-# 🇫🇷 Frenchvim Configuration
+# 🇫🇷 Frenchvim
 
 ## 🚀 Philosophy
 This is an opinionated Nvim configuration based on what i use in my everyday work.  
