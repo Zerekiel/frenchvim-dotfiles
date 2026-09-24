@@ -7,17 +7,17 @@ Each plugin is grouped according to its purpose, keeping the configuration modul
 
 Following is the plugin list organized by categories
 
-📁 Structure
+📁 src/
 │
-├── display/      # UI and visual enhancements
-├── editor/       # Editing and completion
-├── git/          # Git integration
-├── langage/      # Language-specific tools
-├── lsp/          # LSP, diagnostics, and development tools
-├── qol/          # Quality-of-life improvements
-├── roaming/      # Navigation and search
-├── terminal/     # Integrated terminal
-└── themes/       # Themes and icons
+├─ 🎨 display/      UI & visual enhancements
+├─ ✏️ editor/       Editing & completion
+├─ 🔀 git/          Git integration
+├─ 🧩 langage/      Language-specific tooling
+├─ 🔧 lsp/          LSP, diagnostics & dev tools
+├─ ✨ qol/          Quality-of-life improvements
+├─ 🧭 roaming/      Navigation & search
+├─ 🖥️ terminal/    Integrated terminal
+└─ 🎭 themes/      Themes & icons
 
 ## 🎨 Display
 
