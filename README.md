@@ -1,9 +1,9 @@
 # 💤 Frenchvim Configuration
 
 ## 🚀 Philosophy
-This is an opinionated Nvim configuration based on what i use in my everyday work
-It's not meant to work for everyone
-Each plugin is grouped according to its purpose, keeping the configuration modular and making the entire setup easier to understand, customize, and maintain.
+This is an opinionated Nvim configuration based on what i use in my everyday work.  
+It's not meant to work for everyone.  
+Each plugin is grouped according to its purpose, keeping the configuration modular and making the entire setup easier to understand, customize, and maintain.  
 
 Following is the plugin list organized by categories
 
