@@ -3,7 +3,7 @@
 ## 🚀 Philosophy
 This is an opinionated Nvim configuration based on what i use in my everyday work.  
 It's not meant to work for everyone.  
-Feel free to fork and make it your own 
+Feel free to fork and make it your own.   
 Each plugin is grouped according to its purpose, keeping the configuration modular and making the entire setup easier to understand, customize, and maintain.  
 
 ## 📋 Prerequisites
