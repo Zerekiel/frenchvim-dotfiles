@@ -7,6 +7,7 @@ Each plugin is grouped according to its purpose, keeping the configuration modul
 
 Following is the plugin list organized by categories
 
+```text
 📁 src/
 │
 ├─ 🎨 display/      UI & visual enhancements
@@ -18,6 +19,7 @@ Following is the plugin list organized by categories
 ├─ 🧭 roaming/      Navigation & search
 ├─ 🖥️ terminal/    Integrated terminal
 └─ 🎭 themes/      Themes & icons
+```
 
 ## 🎨 Display
 
