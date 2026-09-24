@@ -3,6 +3,7 @@
 ## 🚀 Philosophy
 This is an opinionated Nvim configuration based on what i use in my everyday work.  
 It's not meant to work for everyone.  
+Feel free to fork and make it your own 
 Each plugin is grouped according to its purpose, keeping the configuration modular and making the entire setup easier to understand, customize, and maintain.  
 
 ## 📋 Prerequisites
@@ -25,7 +26,7 @@ Following is the plugin list organized by categories
 ├─ 🎨 display/      UI & visual enhancements
 ├─ ✏️ editor/       Editing & completion
 ├─ 🔀 git/          Git integration
-├─ 🧩 langage/      Language-specific tooling
+├─ 🧩 language/      Language-specific tooling
 ├─ 🔧 lsp/          LSP, diagnostics & dev tools
 ├─ ✨ qol/          Quality-of-life improvements
 ├─ 🧭 roaming/      Navigation & search
