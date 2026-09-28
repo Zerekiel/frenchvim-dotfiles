@@ -39,6 +39,7 @@ return {
 				source_selector = {
 					winbar = true,
 					statusline = true,
+					truncation_character = "...",
 				},
 				default_component_configs = {
 					git_status = {
