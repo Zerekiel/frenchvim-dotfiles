@@ -47,6 +47,9 @@ local function goto_definition()
 					math.max(location.col - 1, 0),
 				})
 
+				-- Centre la definition dans la fenetre
+				vim.cmd("normal! zz")
+
 				return
 			end
 		end
@@ -56,6 +59,9 @@ local function goto_definition()
 		vim.lsp.util.show_document(result[1], encoding, {
 			focus = true,
 		})
+
+		-- Centre la definition dans la fenetre
+		vim.cmd("normal! zz")
 	end)
 end
 
