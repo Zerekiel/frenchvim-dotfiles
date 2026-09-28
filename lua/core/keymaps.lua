@@ -13,6 +13,36 @@ keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split" }
 keymap.set("n", "<leader>w", ":w<Enter>", { silent = true, desc = "Quick save" })
 keymap.set("n", "<leader>Q", "<cmd>qa<CR>", { silent = true, desc = "Close Nvim" })
 
+-- supercharge fold command to refresh neominimap and display the fold
+local function fold_and_refresh(cmd)
+	vim.cmd("normal! " .. cmd)
+	vim.cmd("Neominimap BufRefresh")
+end
+
+keymap.set("n", "zc", function()
+	fold_and_refresh("zc")
+end, { desc = "Close fold" })
+
+keymap.set("n", "zc", function()
+	fold_and_refresh("zc")
+end, { desc = "Close fold" })
+
+vim.keymap.set("n", "zo", function()
+	fold_and_refresh("zo")
+end, { desc = "Open fold" })
+
+vim.keymap.set("n", "za", function()
+	fold_and_refresh("za")
+end, { desc = "Toggle fold" })
+
+vim.keymap.set("n", "zM", function()
+	fold_and_refresh("zM")
+end, { desc = "Close all folds" })
+
+vim.keymap.set("n", "zR", function()
+	fold_and_refresh("zR")
+end, { desc = "Open all folds" })
+
 -- Git Blame
 keymap.set("n", "<leader>gb", ":BlameToggle<Enter>", { silent = true, desc = "Git Blame" })
 

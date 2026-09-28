@@ -8,6 +8,10 @@ return {
 			auto_enable = true,
 			minimap_width = 14,
 
+			fold = {
+				enabled = true,
+			},
+
 			-- Log level
 			log_level = vim.log.levels.OFF,
 
