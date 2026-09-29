@@ -34,6 +34,7 @@ return {
 			{ "<leader>c", group = icons.whichkey.todo .. " Todo comments" },
 			{ "<leader>q", group = icons.whichkey.session .. "  Session" },
 			{ "<leader>f", group = icons.whichkey.find .. "  Find" },
+			{ "<leader>n", group = icons.whichkey.noice .. " Notifs" },
 			{ "<leader>r", group = icons.whichkey.format .. "  Format" },
 			{ "<leader>b", group = icons.whichkey.buffers .. "  Buffers" },
 			{ "<leader>d", group = icons.whichkey.diagnostics .. "  Diagnostics" },

@@ -16,6 +16,7 @@ local icons = {
 		info = " ",
 	},
 	whichkey = {
+		noice = "󰂚",
 		splits = "󰖲",
 		tabs = "󰓩",
 		git = "󰊢",

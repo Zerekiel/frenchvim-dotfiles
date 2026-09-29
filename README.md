@@ -41,6 +41,7 @@ Plugins related to Neovim's interface and visual experience.
 | File | Description |
 |---|---|
 | `alpha.lua` | Provides a customizable dashboard displayed when starting Neovim. |
+| `noice.lua` | Improves Neovim's command-line, notifications, messages, and LSP UI with a cleaner, more modern interface |
 | `bufferline.lua` | Displays and provides navigation between open buffers using a tab-like interface. |
 | `colorizer.lua` | Displays colors directly in the editor for values such as hex, RGB, and other color formats. |
 | `lualine.lua` | Provides a customizable statusline displaying useful information about the current Neovim state. |
