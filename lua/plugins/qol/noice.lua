@@ -23,19 +23,6 @@ return {
 			view = "cmdline_popup",
 		},
 
-		views = {
-			cmdline_popup = {
-				position = {
-					row = "50%",
-					col = "50%",
-				},
-				size = {
-					width = 60,
-					height = "auto",
-				},
-			},
-		},
-
 		-- Messages / notifications
 		messages = {
 			enabled = true,
@@ -55,7 +42,7 @@ return {
 		-- Presets
 		presets = {
 			-- / et ? restent en bas
-			bottom_search = true,
+			bottom_search = false,
 
 			-- :commands apparaissent dans une popup
 			command_palette = true,
