@@ -59,6 +59,7 @@ Plugins focused on improving code editing and writing.
 | File | Description |
 |---|---|
 | `autopairs.lua` | Automatically closes brackets, parentheses, braces, quotes, and other pairs. |
+| `autotag.lua` | Automatically closes html tags |
 | `comments.lua` | Makes creating and managing code comments easier. |
 | `conform.lua` | Handles code formatting and integrates external formatters into Neovim. |
 | `nvim-cmp.lua` | Provides an advanced completion engine for code, snippets, buffers, paths, and other sources. |
