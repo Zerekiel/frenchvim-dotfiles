@@ -43,6 +43,10 @@ vim.keymap.set("n", "zR", function()
 	fold_and_refresh("zR")
 end, { desc = "Open all folds" })
 
+vim.keymap.set("n", "<leader>m", function()
+	require("neominimap.api").toggle()
+end, { desc = "Toggle Minimap" })
+
 -- Git Blame
 keymap.set("n", "<leader>gb", ":BlameToggle<Enter>", { silent = true, desc = "Git Blame" })
 
