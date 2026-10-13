@@ -112,7 +112,7 @@ Quality-of-life tools designed to improve the daily workflow.
 
 | File | Description |
 |---|---|
-| `persistence.lua` | Automatically saves and restores Neovim sessions. |
+| `resession.lua` | Automatically saves and restores Neovim sessions. |
 | `snacks.lua` | Provides a collection of utilities and features that enhance different aspects of Neovim. |
 | `whichkey.lua` | Displays available keybindings when starting to type a key combination. |
 

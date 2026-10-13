@@ -50,20 +50,6 @@ end, { desc = "Toggle Minimap" })
 -- Git Blame
 keymap.set("n", "<leader>gb", ":BlameToggle<Enter>", { silent = true, desc = "Git Blame" })
 
--- Persistence :
-keymap.set("n", "<leader>qs", function()
-	require("persistence").load()
-end, { silent = true, desc = "Load current directory session" })
-keymap.set("n", "<leader>qS", function()
-	require("persistence").select()
-end, { silent = true, desc = "Select a session to load" })
-keymap.set("n", "<leader>ql", function()
-	require("persistence").load({ last = true })
-end, { silent = true, desc = "Load last session" })
-keymap.set("n", "<leader>qd", function()
-	require("persistence").stop()
-end, { silent = true, desc = "Session won't be saved on exit" })
-
 -- Substitute NOHL
 keymap.set("c", "<Esc>", function()
 	local mode = vim.fn.getcmdtype()
