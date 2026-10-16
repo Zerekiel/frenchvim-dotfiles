@@ -48,6 +48,7 @@ return {
 						return {
 							"--glob",
 							"!node_modules/**",
+							"!dev/release-info/**",
 							"--glob",
 							"!.git/**",
 							"--glob",
