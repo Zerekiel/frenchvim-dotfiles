@@ -44,17 +44,12 @@ return {
 
 			pickers = {
 				live_grep = {
-					additional_args = function()
-						return {
-							"--glob",
-							"!node_modules/**",
-							"!dev/release-info/**",
-							"--glob",
-							"!.git/**",
-							"--glob",
-							"!" .. vim.fn.stdpath("data") .. "/lazy/**",
-						}
-					end,
+					glob_pattern = {
+						"!node_modules/**",
+						"!dev/release-info/**",
+						"!.git/**",
+						"!" .. vim.fn.stdpath("data") .. "/lazy/**",
+					},
 				},
 			},
 		})
