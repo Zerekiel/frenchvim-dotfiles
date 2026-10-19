@@ -48,7 +48,6 @@ Plugins related to Neovim's interface and visual experience.
 | `mini-bufremove.lua` | Provides a clean way to remove buffers without unnecessarily closing their associated windows. |
 | `minimap.lua` | Adds a minimap to get an overview of the current file. |
 | `render-markdown.lua` | Improves the visual rendering of Markdown files directly inside Neovim. |
-| `scrollbar.lua` | Adds a scrollbar indicating the current position within the file. |
 
 ---
 
