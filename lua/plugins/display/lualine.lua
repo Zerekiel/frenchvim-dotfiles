@@ -213,6 +213,12 @@ return {
 
 					lualine_x = {
 						{
+							require("lazy.status").updates,
+							cond = require("lazy.status").has_updates,
+							color = { fg = colors.blue },
+							padding = { left = 1, right = 1 },
+						},
+						{
 							linter,
 							color = { fg = colors.orange },
 							padding = { left = 1, right = 1 },
