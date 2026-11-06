@@ -71,8 +71,23 @@ return {
 				desc = "Force close current buffer",
 			},
 			{ "<Leader>bD", "<cmd>BufferLinePickClose<CR>", desc = "Pick buffer to close" },
+			{ "<Leader>bl", "<cmd>BufferLineCloseLeft<CR>", desc = "Pick buffer to close" },
+			{ "<Leader>br", "<cmd>BufferLineCloseRight<CR>", desc = "Pick buffer to close" },
 			{ "<Leader>bC", "<cmd>BufferLineCloseOthers<CR>", desc = "Close all other buffers" },
-			{ "<leader>bv", "<cmd>vertical sbuffer<CR>", desc = "Open buffer in vsplit" },
+			{
+				"<leader>bv",
+				function()
+					require("telescope.builtin").buffers({
+						attach_mappings = function(_, map)
+							local actions = require("telescope.actions")
+							map("i", "<CR>", actions.select_vertical)
+							map("n", "<CR>", actions.select_vertical)
+							return true
+						end,
+					})
+				end,
+				desc = "Open buffer in vsplit",
+			},
 		},
 	},
 }
