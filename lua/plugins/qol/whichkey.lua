@@ -35,7 +35,7 @@ return {
 			{ "<leader>q", group = icons.whichkey.session .. "  Session" },
 			{ "<leader>f", group = icons.whichkey.find .. "  Find" },
 			{ "<leader>n", group = icons.whichkey.noice .. "  Notifs" },
-			{ "<leader>r", group = icons.whichkey.format .. "  Format" },
+			{ "<leader>r", group = icons.whichkey.format .. "  Format and Rename" },
 			{ "<leader>b", group = icons.whichkey.buffers .. "  Buffers" },
 			{ "<leader>d", group = icons.whichkey.diagnostics .. "  Diagnostics" },
 			{ "<leader>e", group = icons.whichkey.explorer .. "  Explorer" },

@@ -62,6 +62,7 @@ Plugins focused on improving code editing and writing.
 | `comments.lua` | Makes creating and managing code comments easier. |
 | `conform.lua` | Handles code formatting and integrates external formatters into Neovim. |
 | `nvim-cmp.lua` | Provides an advanced completion engine for code, snippets, buffers, paths, and other sources. |
+| `inc-rename.lua` | Allows interactive symbol rename. |
 | `todo-comments.lua` | Highlights comments such as `TODO`, `FIXME`, `HACK`, and similar annotations. |
 | `treesitter.lua` | Provides advanced syntax parsing for better highlighting, indentation, code navigation, and other language-aware features. |
 
